@@ -1,0 +1,29 @@
+.wand-container * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wand-container {
+  width: 100%;
+  display: flex;
+  margin: 50px 0;
+}
+
+.wand {
+  flex: 0 auto;
+}
+
+.lightning-bolt {
+  flex: 1 auto;
+  position: relative;
+  top: -12px;
+}
+
+.wand-img {
+  width: 150px;
+}
+
+.bolt-img {
+  height: 20px;
+}
